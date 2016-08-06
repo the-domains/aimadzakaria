@@ -1,14 +1,26 @@
-layout_spectrum: 0.235768
 color:
   saturation: 0.06869829
-  lightness: 0.6612376
   brandStrength: 0.4978518
+  rhythmicContrast: 0.02615724
   brandColors:
     - '#F7E1D4'
     - '#050706'
     - '#57ACCD'
     - '#1A7B8B'
     - '#AC1506'
-  rhythmicContrast: 0.02615724
+  lightness: 0.6612376
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.235768
 typography_spectrum: 0.1219119
 name: 'aimadzakaria '
